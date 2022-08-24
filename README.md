@@ -89,6 +89,6 @@ Have any questions or feedback?
 
    - Dr. Mohammadreza Ashouri
    - https://ashoury.net
-   - 2022 - ashourics@protonmail.com
+   - ashourics@protonmail.com
    - https://www.linkedin.com/in/drashouri/
    - https://ashourics.medium.com/
