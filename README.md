@@ -19,7 +19,69 @@ These operations are broken down into two high-level categories:
 
 
 
-⚠️ **Warning**: the project is **in progress** 
+
+
+
+
+
+## Table of Contents
+- [Install](#install)
+- [Usage](#usage)
+- [Additional Information](#additional-information)
+
+## Install
+To install locally, you'll need [Node.js](https://nodejs.org/) 10 through 12 and [Yarn](https://yarnpkg.com/) _(or [npm](https://www.npmjs.com/))_. Then, perform the following:
+
+```sh
+$ git clone https://github.com/mohammadreza-ashouri/ACCROLLUP.git
+$ cd ACCROLLUP
+$ yarn install
+```
+
+Once you've successfully pulled down the code and installed all dependencies, you'll need to compile both the application code (using TypeScript) as well as the contracts (using Truffle):
+
+```sh
+$ yarn build:ts   # compiles app/ and places output in dist/
+$ yarn build:sol  # compiles contracts/ and places output in build/
+```
+
+## Usage
+To run all the typescript tests in `test/tests/`:
+
+```sh
+$ yarn test:app
+```
+
+You can also run tests directly if you prefer for the blockchain class, the state wrapper class, or the state machine class that executes transactions:
+
+```sh
+$ yarn test:blockchain
+$ yarn test:state
+$ yarn test:transactions
+```
+
+To generate application test coverage using nyc:
+
+```sh
+$ yarn test:coverage:app
+```
+
+To generate contract test coverage using Truffle with the solidity-coverage plugin:
+
+```sh
+$ yarn test:coverage:sol
+```
+
+To run contract linters:
+
+```sh
+$ yarn lint
+```
+
+## Additional Information
+This repository is maintained by [@mohammadreza-ashouri](https://github.com/mohammadreza-ashouri).
+
+Have any questions or feedback? 
 
 
 
@@ -28,4 +90,5 @@ These operations are broken down into two high-level categories:
    - Dr. Mohammadreza Ashouri
    - https://ashoury.net
    - 2022 - ashourics@protonmail.com
-   
+   - https://www.linkedin.com/in/drashouri/
+   - https://ashourics.medium.com/
