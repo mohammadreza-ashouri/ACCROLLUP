@@ -1,6 +1,6 @@
 
 
-# ACCRO : L2 Rollup for scalable token transfers for the EVM ecosystem
+# Accro : L2 Rollup for Scalable Token Transfers for the EVM Ecosystem
 
 
 
