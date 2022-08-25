@@ -1,12 +1,12 @@
 
 
-# ACCROLLUP
-> ACCROLLUP is in progress project as a "Layer Two" system for scalable EVM token transfers
+# ACCRO : L2 Rollup for scalable token transfers for the EVM ecosystem
+
 
 
 
 ## Summary
-**ACCROLLUP** is a framework for performing EVM token transfers at a fraction of the cost of a standard transfer.
+**ACCROP** is a framework for performing EVM token transfers at a fraction of the cost of a standard transfer.
 
 It accomplishes this by aggregating transactions and committing them into blocks. It includes a merkle root of the new account state along with the transaction data for each block. If some part of a block is invalid, anyone can submit a proof to that effect within a challenge period. Should they do so, they earn a reward and trigger a roll-back of the state.
 
